@@ -1,0 +1,236 @@
+{
+  "mod_elements": [
+    {
+      "name": "PenguinBeakGongJuZaiShouShangShiMeiKeFaSheng",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "penguin_beak_gong_ju_zai_shou_shang_shi_mei_ke_fa_sheng",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/penguin/procedures/PenguinBeakGongJuZaiShouShangShiMeiKeFaShengProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PenguinBeak",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "penguin_beak",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/penguin/item/PenguinBeakItem.java",
+          "src/main/resources/assets/penguin/models/item/penguin_beak.json"
+        ]
+      }
+    },
+    {
+      "name": "PenguinBeakPf",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "penguin_beak_pf",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/penguin/recipes/penguin_beak_pf.json"
+        ]
+      }
+    },
+    {
+      "name": "PenguinHead",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "penguin_head",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/penguin/models/item/penguin_head_helmet.json",
+          "src/main/java/net/mcreator/penguin/item/PenguinHeadItem.java"
+        ]
+      }
+    },
+    {
+      "name": "PenguinShouHuDangYaoShuiXiaoGuoKaiShiYingYongShi",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "penguin_shou_hu_dang_yao_shui_xiao_guo_kai_shi_ying_yong_shi",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/penguin/procedures/PenguinShouHuDangYaoShuiXiaoGuoKaiShiYingYongShiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PenguinShouHuXiaoGuoChiXuShiMeiKeFaSheng",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "penguin_shou_hu_xiao_guo_chi_xu_shi_mei_ke_fa_sheng",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/penguin/procedures/PenguinShouHuXiaoGuoChiXuShiMeiKeFaShengProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PenguinShouHu",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "penguin_shou_hu",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/penguin/potion/PenguinShouHuMobEffect.java"
+        ]
+      }
+    },
+    {
+      "name": "PenguinWater",
+      "type": "potion",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "penguin_water",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Penguin",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "penguin",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/penguin/entity/PenguinEntity.java",
+          "src/main/java/net/mcreator/penguin/client/renderer/PenguinRenderer.java",
+          "src/main/resources/data/penguin/forge/biome_modifier/penguin_biome_modifier.json",
+          "src/main/resources/assets/penguin/models/item/penguin_spawn_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "Pingu",
+      "type": "musicdisc",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pingu",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/penguin/models/item/pingu.json",
+          "src/main/java/net/mcreator/penguin/item/PinguItem.java"
+        ]
+      }
+    },
+    {
+      "name": "PenguinPicture",
+      "type": "painting",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "penguin_picture",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Qie",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "qie",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/penguin/world/inventory/QieMenu.java",
+          "src/main/java/net/mcreator/penguin/client/gui/QieScreen.java"
+        ]
+      }
+    },
+    {
+      "name": "QePhoto",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "qe_photo",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/penguin/models/item/qe_photo.json",
+          "src/main/java/net/mcreator/penguin/item/QePhotoItem.java",
+          "src/main/java/net/mcreator/penguin/item/inventory/QePhotoInventoryCapability.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "pingu",
+      "files": [
+        "pingu"
+      ],
+      "category": "record",
+      "subtitle": "pingu的唱片"
+    }
+  ],
+  "tag_elements": {},
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "item.penguin.penguin_spawn_egg": "Penguin Spawn Egg",
+      "item.penguin.pingu.desc": "pingu-pingudsk",
+      "effect.penguin.penguin_shou_hu": "企鹅水",
+      "item.penguin.pingu": "Pingu",
+      "painting.penguin.penguin_picture.title": "Penguin Picture",
+      "item.minecraft.potion.effect.penguin_water": "企鹅水",
+      "item.penguin.penguin_head_helmet": "企鹅头",
+      "item.penguin.penguin_beak": "Penguin Beak",
+      "painting.penguin.penguin_picture.author": "pingu",
+      "subtitles.pingu": "pingu的唱片",
+      "entity.penguin.penguin": "Penguin",
+      "item.minecraft.tipped_arrow.effect.penguin_water": "Arrow of 企鹅水",
+      "item.penguin.qe_photo": "企鹅图片",
+      "item.minecraft.splash_potion.effect.penguin_water": "喷企鹅水",
+      "item.minecraft.lingering_potion.effect.penguin_water": "支流企鹅水"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "penguin",
+    "modName": "penguin",
+    "version": "1.0.0",
+    "author": "shundebo ",
+    "websiteURL": "https://jvav.brserver.top",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "penguin\u0027s love",
+    "modElementsPackage": "net.mcreator.penguin"
+  },
+  "mcreatorVersion": 202400342716
+}

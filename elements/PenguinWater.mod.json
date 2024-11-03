@@ -1,0 +1,21 @@
+{
+  "_fv": 69,
+  "_type": "potion",
+  "definition": {
+    "potionName": "企鹅水",
+    "splashName": "喷企鹅水",
+    "lingeringName": "支流企鹅水",
+    "arrowName": "Arrow of 企鹅水",
+    "effects": [
+      {
+        "effect": {
+          "value": "CUSTOM:PenguinShouHu"
+        },
+        "duration": 72000,
+        "amplifier": 0,
+        "ambient": false,
+        "showParticles": true
+      }
+    ]
+  }
+}

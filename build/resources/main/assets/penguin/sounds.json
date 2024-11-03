@@ -1,0 +1,11 @@
+{
+  "pingu": {
+    "subtitle": "subtitles.pingu",
+    "sounds": [
+      {
+        "name": "penguin:pingu",
+        "stream": true
+      }
+    ]
+  }
+}
