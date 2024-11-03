@@ -88,6 +88,22 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       }
@@ -241,11 +257,12 @@
   "workspaceSettings": {
     "modid": "penguin",
     "modName": "penguin",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "author": "shundebo ",
     "websiteURL": "https://jvav.brserver.top",
     "license": "Not specified",
     "serverSideOnly": false,
+    "modPicture": "pingu",
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],

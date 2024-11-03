@@ -31,7 +31,7 @@ public class PenguinShouHuMobEffect extends MobEffect {
 
 	@Override
 	public void applyEffectTick(LivingEntity entity, int amplifier) {
-		PenguinShouHuXiaoGuoChiXuShiMeiKeFaShengProcedure.execute(entity);
+		PenguinShouHuXiaoGuoChiXuShiMeiKeFaShengProcedure.execute(entity.level(), entity.getX(), entity.getY(), entity.getZ(), entity);
 	}
 
 	@Override

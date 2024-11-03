@@ -4,9 +4,10 @@ license="Not specified"
 
 [[mods]]
 modId="penguin"
-version="1.0.0"
+version="1.0.1"
 displayName="penguin"
 displayURL="https://jvav.brserver.top"
+logoFile="logo.png"
 credits="penguin's love"
 authors="shundebo "
 
