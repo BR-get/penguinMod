@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ab"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:furnace"
+    },
+    "b": {
+      "item": "minecraft:white_bed"
+    }
+  },
+  "result": {
+    "item": "penguin:penguin_beak",
+    "count": 1
+  }
+}

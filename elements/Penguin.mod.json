@@ -1,0 +1,190 @@
+{
+  "_fv": 69,
+  "_type": "livingentity",
+  "definition": {
+    "mobName": "Penguin",
+    "mobLabel": "",
+    "mobModelName": "Biped",
+    "mobModelTexture": "new_skin_1.png",
+    "transparentModelCondition": {
+      "fixedValue": false
+    },
+    "isShakingCondition": {
+      "fixedValue": false
+    },
+    "solidBoundingBox": {
+      "fixedValue": false
+    },
+    "visualScale": {
+      "fixedValue": 1.0
+    },
+    "boundingBoxScale": {
+      "fixedValue": 1.0
+    },
+    "modelLayers": [
+      {
+        "model": "Default",
+        "texture": "new_skin_1.png",
+        "disableHurtOverlay": false,
+        "glow": true
+      }
+    ],
+    "modelWidth": 0.6,
+    "modelHeight": 1.8,
+    "modelShadowSize": 0.5,
+    "mountedYOffset": 0.0,
+    "hasSpawnEgg": true,
+    "spawnEggBaseColor": {
+      "value": -1,
+      "falpha": 0.0
+    },
+    "spawnEggDotColor": {
+      "value": -26317,
+      "falpha": 0.0
+    },
+    "creativeTabs": [
+      {
+        "value": "MISC"
+      }
+    ],
+    "isBoss": false,
+    "bossBarColor": "PINK",
+    "bossBarType": "PROGRESS",
+    "equipmentMainHand": {
+      "value": ""
+    },
+    "equipmentOffHand": {
+      "value": ""
+    },
+    "equipmentHelmet": {
+      "value": ""
+    },
+    "equipmentBody": {
+      "value": ""
+    },
+    "equipmentLeggings": {
+      "value": ""
+    },
+    "equipmentBoots": {
+      "value": ""
+    },
+    "mobBehaviourType": "Mob",
+    "mobCreatureType": "UNDEFINED",
+    "attackStrength": 10000,
+    "attackKnockback": 0.0,
+    "knockbackResistance": 10.0,
+    "movementSpeed": 0.3,
+    "stepHeight": 0.6,
+    "armorBaseValue": 100.0,
+    "trackingRange": 64,
+    "followRange": 64,
+    "health": 1000,
+    "xpAmount": 0,
+    "waterMob": true,
+    "breatheUnderwater": {
+      "fixedValue": true
+    },
+    "pushedByFluids": {
+      "fixedValue": false
+    },
+    "flyingMob": true,
+    "guiBoundTo": "<NONE>",
+    "inventorySize": 21,
+    "inventoryStackSize": 64,
+    "disableCollisions": false,
+    "ridable": true,
+    "canControlForward": true,
+    "canControlStrafe": true,
+    "immuneToFire": true,
+    "immuneToArrows": true,
+    "immuneToFallDamage": true,
+    "immuneToCactus": true,
+    "immuneToDrowning": true,
+    "immuneToLightning": true,
+    "immuneToPotions": true,
+    "immuneToPlayer": true,
+    "immuneToExplosion": true,
+    "immuneToTrident": true,
+    "immuneToAnvil": true,
+    "immuneToWither": true,
+    "immuneToDragonBreath": true,
+    "mobDrop": {
+      "value": "CUSTOM:PenguinBeak"
+    },
+    "livingSound": {
+      "value": ""
+    },
+    "hurtSound": {
+      "value": ""
+    },
+    "deathSound": {
+      "value": ""
+    },
+    "stepSound": {
+      "value": ""
+    },
+    "raidCelebrationSound": {
+      "value": ""
+    },
+    "entityDataEntries": [],
+    "hasAI": true,
+    "aiBase": "(none)",
+    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"168\" y=\"47\"><next><block type=\"attack_on_collide\"><field name=\"speed\">1.2</field><field name=\"longmemory\">FALSE</field><field name=\"condition\">null,null</field><next><block type=\"attack_entity\"><field name=\"insight\">TRUE</field><field name=\"nearby\">TRUE</field><field name=\"entity\">EntitySalmon</field><field name=\"condition\">null,null</field><next><block type=\"attack_entity\"><field name=\"insight\">TRUE</field><field name=\"nearby\">TRUE</field><field name=\"entity\">EntityCod</field><field name=\"condition\">null,null</field><next><block type=\"wander\"><field name=\"speed\">1</field><field name=\"condition\">null,null</field><next><block type=\"swim\"><field name=\"speed\">1</field><field name=\"condition\">null,null</field><next><block type=\"attack_action\"><field name=\"callhelp\">FALSE</field><field name=\"condition\">null,null</field><next><block type=\"look_around\"><field name=\"condition\">null,null</field><next><block type=\"swim_in_water\"><field name=\"condition\">null,null</field></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></xml>",
+    "breedable": true,
+    "tameable": true,
+    "breedTriggerItems": [
+      {
+        "value": "Items.FISH#0"
+      },
+      {
+        "value": "Items.FISH#1"
+      },
+      {
+        "value": "Items.FISH#2"
+      },
+      {
+        "value": "Items.FISH#3"
+      },
+      {
+        "value": "Items.COOKED_FISH#0"
+      },
+      {
+        "value": "Items.COOKED_FISH#1"
+      }
+    ],
+    "ranged": false,
+    "rangedAttackItem": {
+      "value": ""
+    },
+    "rangedItemType": "Default item",
+    "rangedAttackInterval": 20,
+    "rangedAttackRadius": 10.0,
+    "spawnThisMob": true,
+    "doesDespawnWhenIdle": false,
+    "spawningProbability": 64,
+    "mobSpawningType": "waterCreature",
+    "minNumberOfMobsPerGroup": 2,
+    "maxNumberOfMobsPerGroup": 6,
+    "restrictionBiomes": [
+      {
+        "value": "frozen_ocean"
+      },
+      {
+        "value": "frozen_peaks"
+      },
+      {
+        "value": "frozen_river"
+      }
+    ],
+    "spawnInDungeons": false,
+    "raidSpawnsCount": [
+      4,
+      3,
+      3,
+      4,
+      4,
+      4,
+      2
+    ]
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "_fv": 69,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Spade",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "penguinbeak",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "name": "Penguin Beak",
+    "specialInformation": {
+      "fixedValue": [
+        "企鹅的嘴，可以吃掉你"
+      ]
+    },
+    "creativeTabs": [
+      {
+        "value": "TOOLS"
+      }
+    ],
+    "efficiency": 100.0,
+    "attackSpeed": 0.1,
+    "enchantability": 50,
+    "damageVsEntity": 100000.0,
+    "usageCount": 100000,
+    "glowCondition": {
+      "fixedValue": true
+    },
+    "repairItems": [
+      {
+        "value": "Blocks.STRIPPED_OAK_WOOD"
+      },
+      {
+        "value": "Blocks.STRIPPED_SPRUCE_WOOD"
+      },
+      {
+        "value": "Blocks.STRIPPED_BIRCH_WOOD"
+      },
+      {
+        "value": "Blocks.STRIPPED_JUNGLE_WOOD"
+      },
+      {
+        "value": "Blocks.STRIPPED_ACACIA_WOOD"
+      },
+      {
+        "value": "Blocks.STRIPPED_DARK_OAK_WOOD"
+      },
+      {
+        "value": "Blocks.STRIPPED_MANGROVE_WOOD"
+      },
+      {
+        "value": "Blocks.STRIPPED_CHERRY_WOOD"
+      }
+    ],
+    "immuneToFire": true,
+    "blockDropsTier": "NETHERITE",
+    "blocksAffected": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onItemInUseTick": {
+      "name": "PenguinBeakGongJuZaiShouShangShiMeiKeFaSheng"
+    }
+  }
+}

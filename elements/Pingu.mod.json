@@ -1,0 +1,26 @@
+{
+  "_fv": 69,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "Pingu",
+    "rarity": "COMMON",
+    "texture": "pgdsk",
+    "description": "pingu-pingudsk",
+    "creativeTabs": [
+      {
+        "value": "TOOLS"
+      }
+    ],
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "music": {
+      "value": "CUSTOM:pingu"
+    },
+    "lengthInTicks": 4300,
+    "analogOutput": 15
+  }
+}

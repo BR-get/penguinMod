@@ -1,0 +1,14 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": [
+    "frozen_ocean",
+    "frozen_peaks",
+    "frozen_river"
+  ],
+  "spawners": {
+    "type": "penguin:penguin",
+    "weight": 64,
+    "minCount": 2,
+    "maxCount": 6
+  }
+}
