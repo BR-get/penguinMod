@@ -141,6 +141,60 @@
           "src/main/java/net/mcreator/penguin/item/PinguItem.java"
         ]
       }
+    },
+    {
+      "name": "Qie",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "qie",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/penguin/world/inventory/QieMenu.java",
+          "src/main/java/net/mcreator/penguin/client/gui/QieScreen.java"
+        ]
+      }
+    },
+    {
+      "name": "QePhoto",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "qe_photo",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/penguin/models/item/qe_photo.json",
+          "src/main/java/net/mcreator/penguin/item/QePhotoItem.java",
+          "src/main/java/net/mcreator/penguin/item/inventory/QePhotoInventoryCapability.java"
+        ]
+      }
+    },
+    {
+      "name": "GuiFishD",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gui_fish_d",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/penguin/worldgen/template_pool/gui_fish_d.json",
+          "src/main/resources/data/penguin/worldgen/structure/gui_fish_d.json",
+          "src/main/resources/data/penguin/worldgen/structure_set/gui_fish_d.json"
+        ]
+      }
+    },
+    {
+      "name": "QeLiz",
+      "type": "particle",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "qe_liz",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/penguin/particles/qe_liz.json",
+          "src/main/java/net/mcreator/penguin/client/particle/QeLizParticle.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -175,6 +229,7 @@
       "subtitles.pingu": "pingu的唱片",
       "entity.penguin.penguin": "Penguin",
       "item.minecraft.tipped_arrow.effect.penguin_water": "Arrow of 企鹅水",
+      "item.penguin.qe_photo": "企鹅图片",
       "item.minecraft.splash_potion.effect.penguin_water": "喷企鹅水",
       "item.minecraft.lingering_potion.effect.penguin_water": "支流企鹅水"
     }
